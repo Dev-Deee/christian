@@ -1,0 +1,3 @@
+javac -cp <path-to-junit-jar>;<path-to-hamcrest-jar>;. YourSourceFile.java YourTestFile.java
+java -cp <path-to-junit-jar>;<path-to-hamcrest-jar>;. org.junit.runner.JUnitCore YourTestClassName
+
